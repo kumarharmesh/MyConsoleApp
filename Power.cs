@@ -1,7 +1,7 @@
 using System;
  class Program
     {
-        static void Main(string[] args)
+        public static double GetPower()
         {
             int x,y;
             double power;
@@ -11,5 +11,6 @@ using System;
             y=Convert.ToInt32(Console.ReadLine());
             power=Math.Pow(x,y);
             Console.WriteLine($"{x}  power {y} = {power}");
+            return power;
         }
     }
