@@ -11,6 +11,7 @@ namespace MyConsoleApp
             number=Convert.ToDouble(Console.ReadLine());
             root=Math.Sqrt(number);
             Console.WriteLine($"Root of {number} is {root}");
+            COnsole.WriteLine(DateTime.Now.ToLongDateString());
         }
     }
 }
